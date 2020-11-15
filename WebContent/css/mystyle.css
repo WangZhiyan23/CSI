@@ -1,0 +1,21 @@
+/*样式的名字是自定义的，在main中有自定义内容*/
+.left{
+	border: dotted 1px #ccc; 
+	width: 20%; /*表示占从左边开始占位置，占左边20%的范围*/
+	float: left; 
+	height: 750px;
+}
+.right{
+	width: 79%; /*如果这里是81%，即与上面的百分比相加大于100%，这一部分就不能与上一部分左右并列，就会上下并列*/
+	float: left;	/*虽然这个class是right，但是实际上也是从左边开始占位置，贴着上面的再占左边79%的范围*/
+}
+.top{
+	border: dotted 1px #ccc;
+	height: 100px;
+	width: 100%;"	/*在这个里面占全部的范围，而这个“全部”实际上为整个屏幕79%的范围*/
+}
+.main{
+	border: dotted 1px #ccc; 
+	height: 650px; 
+	width: 100%;
+}
