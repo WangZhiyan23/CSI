@@ -10,6 +10,9 @@
 ```
 // 在目标文件夹执行
 git clone git@github.com:twoyoung04/CSI.git
+
+// 切换分支，统一在dev分支下进行开发吧
+git checkout dev
 ```
 
 ## 项目开发注意事项
