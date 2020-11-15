@@ -16,10 +16,12 @@ git clone git@github.com:twoyoung04/CSI.git
 ```
 // 每次开发前先拉取代码，即在项目下执行
 git pull // 若报错在群里提出
+
 // 每完成一部分开发，执行
 git add .  // 添加所有修改代码到暂存区
 git commit -m "blablabla"  // 引号中为本次修改内容的简要注释，如: "增加登录功能"
 git push  // 推送到远程仓库
+
 // 首次 push 的过程如出现问题，则执行
 git push --set-upstream origin dev
 ```
