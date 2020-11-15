@@ -23,3 +23,6 @@ git push  // 推送到远程仓库
 // 首次 push 的过程如出现问题，则执行
 git push --set-upstream origin dev
 ``
+
+## 反馈
+git 使用过程中有任何不明白的问题及时在群里提出
